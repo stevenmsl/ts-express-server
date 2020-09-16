@@ -1,0 +1,8 @@
+- node executes our code
+- class definition read in - decorators are executed
+- decorators associate route configuration info with
+  the method by using metadata
+- all method decorators run
+- class decorator of '@controller' runs last
+- class decorator reads metadata from each method, 
+  adds complete route definitions to router
